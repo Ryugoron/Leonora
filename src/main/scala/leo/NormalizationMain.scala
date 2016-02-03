@@ -324,7 +324,7 @@ object NormalizationMain {
 
   private def helpText : String = {
     val sb = StringBuilder.newBuilder
-    sb.append("Normalize -- A Higher-Order Normalization Tool\n")
+    sb.append("Leonora -- A Higher-Order Normalization Tool\n")
     sb.append("Christoph Benzmüller, Alexander Steen, Max Wisniewski and others.\n\n")
     sb.append("Usage: ... PROBLEM_FILE [OPTIONS]\n")
     sb.append("Options:\n")

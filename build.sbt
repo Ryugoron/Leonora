@@ -1,5 +1,5 @@
 lazy val commonSettings = Seq(
-  version := "0.1",
+  version := "1",
   scalaVersion := "2.11.6"
 )
 
@@ -8,9 +8,9 @@ lazy val leo = (project in file(".")).
   settings(
     organization := "org.leo",
     
-    name := "Leo III",
+    name := "Leonora",
     
-    description := "A Higher-Order Theorem Prover.",
+    description := "A Higher-Order Problem Preprocessor.",
     
     libraryDependencies ++= Seq(
       "org.scala-lang.modules" %% "scala-parser-combinators" % "1.0.4",

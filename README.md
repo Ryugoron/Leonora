@@ -18,6 +18,9 @@ These adaptions are further augmented with HOL specific techniques and bundled i
 different normalization procedures. These procedures are intended as pre-processing
 routines for the new Leo-III theorem prover.
 
+
+**IMPORTANT:** Due to the very inefficient problem parsing mechanism, the stand-alone tool will take some time to process the input problem as it becomes larger. It is highly recommended to include the normalization libraries directly into the target tool.
+
 Required Dependencies
 ----------------
 
